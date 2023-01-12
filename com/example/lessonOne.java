@@ -1,13 +1,14 @@
 package com.example;
 
 import java.time.LocalDate;
+
 public class lessonOne {
     public static void main(String[] args) {
         // Задание 1
         int days = 234;
-        int months = days/30;
+        int months = days / 30;
         System.out.println("Прошло полных месяцев за период: " + months);
-        int weeks = days/7;
+        int weeks = days / 7;
         System.out.println("Прошло полных недель за период: " + weeks);
 
         // Задание 2
@@ -28,5 +29,6 @@ public class lessonOne {
         int currentYear = currentDate.getYear();
         int x = currentYear - YEAR;
         System.out.println("Возраст = " + x);
+
     }
 }
