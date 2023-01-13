@@ -1,7 +1,7 @@
 package com.example;
 
 import java.time.LocalDate;
-public class lessonOne {
+public class LessonOne {
     public static void main(String[] args) {
         // Задание 1
         int days = 234;
